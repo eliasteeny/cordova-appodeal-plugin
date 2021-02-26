@@ -1,0 +1,19 @@
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+repositories {
+    maven {
+        url "https://artifactory.appodeal.com/appodeal"
+    }
+}
+
+dependencies {
+	// Appodeal SDK
+	implementation ('com.appodeal.ads:sdk:2.8.1.+') {
+        exclude group: 'com.appodeal.ads.sdk.networks', module: 'vungle'
+    }
+}

@@ -1,0 +1,4 @@
+libs/iOS/Appodeal/Appodeal.framework/Appodeal filter=lfs diff=lfs merge=lfs -text
+libs/iOS/Appodeal/GoogleMobileAds.xcframework/ios-arm64_armv7/GoogleMobileAds.framework/GoogleMobileAds filter=lfs diff=lfs merge=lfs -text
+libs/iOS/Appodeal/Appodeal.framework/Appodeal filter=lfs diff=lfs merge=lfs -text
+libs/iOS/Appodeal/GoogleMobileAds.xcframework/ios-arm64_armv7/GoogleMobileAds.framework/GoogleMobileAds filter=lfs diff=lfs merge=lfs -text
